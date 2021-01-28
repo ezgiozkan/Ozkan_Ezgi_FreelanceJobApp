@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp"
+    app:cardUseCompatPadding="true"
+    tools:visibility="visible">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@id/image"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignBottom="@+id/jobPrice"
+            android:layout_marginBottom="21dp"
+
+            app:srcCompat="@drawable/freelancer" />
+
+        <TextView
+            android:id="@+id/jobTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_toEndOf="@id/image"
+            android:layout_toRightOf="@id/image"
+            android:text="Title"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/jobDescription"
+            android:layout_width="227dp"
+            android:layout_height="51dp"
+            android:layout_below="@id/jobTitle"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/image"
+            android:layout_toRightOf="@id/image"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/daysLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jobDescription"
+            android:layout_marginStart="13dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@id/image"
+            android:layout_toRightOf="@id/image"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/jobPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/jobDescription"
+            android:layout_marginStart="68dp"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@+id/daysLeft"
+            android:layout_toRightOf="@+id/daysLeft"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/jobTitle"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            app:srcCompat="@drawable/ic_baseline_edit_24" />
+
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnUpdate"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

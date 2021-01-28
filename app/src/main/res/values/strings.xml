@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Freelance Job</string>
+
+    <string name="cancel_button">Cancel</string>
+    <string name="add_button">Add</string>
+    <string name="title_holder">for example; create a website for me</string>
+    <string name="description_holder">Describe your project here...</string>
+    <string name="price_holder">$56-$78</string>
+    <string name="day_holder">7 day</string>
+    <string name="search_holder">Search Freelance Job</string>
+</resources>
