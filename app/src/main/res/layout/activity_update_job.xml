@@ -72,7 +72,7 @@
         android:layout_marginStart="128dp"
         android:layout_marginLeft="128dp"
         android:layout_marginTop="20dp"
-        android:text="xxxx"
+        android:text="Expert"
         app:layout_constraintStart_toStartOf="@+id/updateJobPrice"
         app:layout_constraintTop_toBottomOf="@+id/updateDaysLeft" />
 
